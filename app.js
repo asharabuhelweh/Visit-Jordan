@@ -1,29 +1,34 @@
 
-function printPlace(place){
-    prompt("do you prefer petra or aqaba?");
+function printPlace(){
+   return prompt("do you prefer petra or aqaba?");
 }
+var newSt =printPlace()
 
-while(printPlace() != "petra" && printPlace() != "aqaba" )
+while(newSt!= "petra" && newSt != "aqaba" )
 {
-    promptplace = prompt("do you prefer petra or aqaba?");
-}
+    newSt  = prompt("do you prefer petra or aqaba?");
+    }
+
 var placename = '';
-if(printPlace() == "petra")
+if(newSt == "petra")
 {
     placename = '<img src="images/petra.jpg" />';
 }
 
-    else if(place=="aqaba")
+    else if(newSt=="aqaba")
     {
         placename = '<img src="images/aqaba.jpg" />';
     }
 
-var numpetra = prompt("how many times you visit petra?");
+var numpetra = prompt("how many times you visit it");
+var result = '';
 
-function gitResult(result){
+function gitResult(){
     '';}
+
+
 for(var i=0; i<numpetra; i++)
 {
     result = result + placename;
 }
-document.write(gitResult());
+document.write(result);
