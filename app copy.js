@@ -1,10 +1,14 @@
-var place= prompt("do you prefer petra or aqaba?");
-while(place !== "petra" && place !== "aqaba" )
+
+function printPlace(place){
+    prompt("do you prefer petra or aqaba?");
+}
+
+while(printPlace() != "petra" && printPlace() != "aqaba" )
 {
-    place = prompt("do you prefer petra or aqaba?");
+    promptplace = prompt("do you prefer petra or aqaba?");
 }
 var placename = '';
-if(place == "petra")
+if(printPlace() == "petra")
 {
     placename = '<img src="images/petra.jpg" />';
 }
@@ -16,9 +20,10 @@ if(place == "petra")
 
 var numpetra = prompt("how many times you visit petra?");
 
-var result = '';
+function gitResult(result){
+    '';}
 for(var i=0; i<numpetra; i++)
 {
     result = result + placename;
 }
-document.write(result);
+document.write(gitResult());
