@@ -1,0 +1,42 @@
+
+
+ header nav ul li{
+    display: inline; 
+ float: right;    
+}
+.logo{
+    float: left;
+    width: 100px;
+}
+
+.head1{
+    
+margin-left:400px;
+}
+.pic1{
+
+        float: left;
+    
+    width: 400px;
+}
+
+.paragraph{
+    float: right;
+    line-height: 1.5px;
+    text-align:right;
+    padding: 20px;
+}
+footer{
+    color: white;
+    background-color: orange;
+    
+}
+
+.img2{
+    width: 40%;
+}
+
+#con{
+    display: flex;
+    justify-content: space-around;
+}
